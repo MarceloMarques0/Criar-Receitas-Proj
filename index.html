@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie Receitas:</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="instruc">
+    <h1>Crie sua Receita!</h1>
+    <p>Crie suas receitas com este projeto feito em <strong>JavaScript.</strong> Adicionando uma lista não ordenada</p>
+    </div>
+    
+    <div class="btns">
+    <input type="text" name="namerect" id="namerect" placeholder="Nome da Receita:">
+     <div class="specific">
+       <input type="number" name="quanti" id="quanti" placeholder="Quantidade:">
+       <input type="text" name="medid" id="medid" placeholder="Medidas:">
+       <input type="text" name="ingredient" id="ingredient" placeholder="Adicione o Engrediente:">
+     </div>
+     <button onclick="adicionar()" class="buttonadd">Adicionar</button>
+     <div id="res"><h1>Receita de :</h1></div>
+    <ul id="lista">  
+    </ul>
+    </div>
+    </header>
+
+
+    
+<script src="pag.js"></script>
+</body>
+</html>
